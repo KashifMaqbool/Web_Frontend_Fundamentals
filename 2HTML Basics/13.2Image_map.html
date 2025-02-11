@@ -1,0 +1,45 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+        </head>
+        <body>
+            <!-- Area with default atributes e.g with no coordinates -->
+            <img src="/1Images/flower.jpg" alt="Red Flower" usemap="#workmap">
+            <map name = "#workmap">
+                <area shape = "default" href="/1Images/animated.gif" alt="Flower Red" >
+            </map>
+
+            <!-- Area with rect, circle and poly attributes with coordinates -->
+            <br>
+            <img src = "/1Images/flower.jpg" alt="Red Flower" usemap = "#workshop">
+            <map name="#workshop">
+                <area shape="rect" coords="213,5,590,180" href="https://www.google.com" alt="Google.com">
+                <area shape="circle" coords="405,423,100" href="/1Images/lion.jpg" alt="lion">
+                <area shape="poly" coords="353,744,368,684,418,627,447,664,433,729,383,776" href="/1Images/stones.jpg" alt="Stones">
+            </map>
+
+            <!-- Addition with othre tags and with experiments -->
+            <br>
+            <img src="/1Images/lion.jpg" alt="Lion Picture" style="width: 400px; height: 400px" usemap = "#Kashif">
+            <map name="#Kashif">
+                <area shape="default"  href="https://www.unsplash.com" alt="Picture Website" target="_blank">
+            </map>
+
+
+            <!-- Image map and Javascript -->
+            <br>
+            <br>
+            <img src="/1Images/lion.jpg" alt="Lion" usemap = "#Maqbool">
+            <map name="#Maqbool">
+                <area shape="default" href="/1Images/animated.gif" alt="animation Picture" onclick="myFunction()" target="blank">
+            </map>
+            <script>
+                function myFunction(){
+                    alert("You have disturbed the Lion King!");
+                }
+            </script>
+        </body>
+    </html>

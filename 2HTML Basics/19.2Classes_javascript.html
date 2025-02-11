@@ -1,0 +1,32 @@
+<!-- Basic Class syntax -->
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+            
+        </head>
+        <body>
+            <p> Click button to hide all elements of class "class" </p>
+            <button onclick="myfunction()">Hide Elements</button>
+
+            <h2 class = "class"> Islamabad </h2>
+            <p> Islamabad is the Capital of Pakistan.</p>
+
+            <h2 class="class"> Tokyo </h2>
+            <p> Tokyo is the capital of Japan.</p>
+
+            <h2 class="class"> Gaza </h2>
+            <p> Gaza is the capital of Palestine.</p>
+
+            <script>
+                function myfunction() {
+                    var x = document.getElementsByClassName("class");
+                    for(i=0 ; i<x.length; i++){
+                        x[i].style.display = "none";
+                    }
+                }
+            </script>
+        </body>
+    </html>

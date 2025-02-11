@@ -1,0 +1,76 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+        </head>
+        <body>
+            <!--  action attribute -->
+            <form action="/action_page.php">
+                <p>--------------------------------------</p>
+                <p> action attribute </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="fname" value="Kashif"> <br>
+                <label for="lname">Last Name</label> <br>
+                <input type="text" name="lname" id="lname" value="Maqbool"> <br> <br>
+                <input type="submit" name="submit">
+            </form>
+            
+            <!-- target attributes -->
+            <form action="/action_page.php" target="_self">
+                <p>--------------------------------------</p>
+                <p>target attributes </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="fname" value="Kashif"> <br>
+                <label for="lname">Last Name</label> <br>
+                <input type="text" name="lname" id="lname" value="Maqbool"> <br> <br>
+                <input type="submit" name="submit">
+            </form>
+
+            <!-- Method attribute ( Get Method )-->
+            <form action="/action_page.php" target="blank" method="get">
+                <p>--------------------------------------</p>
+                <p>Method attribute ( Get Method ) </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="fname" value="Kashif"> <br>
+                <label for="lname">Last Name</label> <br>
+                <input type="text" name="lname" id="lname" value="Maqbool"> <br> <br>
+                <input type="submit" name="submit">
+            </form>
+
+            <!-- Method attribute ( Post Method )-->
+            <form action="/action_page.php" target="_self" method="post">
+                <p>--------------------------------------</p>
+                <p> Method attribute ( Post Method ) </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="fname" value="Kashif"> <br>
+                <label for="lname">Last Name</label> <br>
+                <input type="text" name="lname" id="lname" value="Maqbool"> <br> <br>
+                <input type="submit" name="submit">
+            </form>
+
+            <!-- Autocoplete attribute -->
+            <form action="/action_page.php" target="_self" autocomplete="on">
+                <p>--------------------------------------</p>
+                <p> Autocoplete attribute </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="fname" value="Kashif"> <br>
+                <label for="lname">Last Name</label> <br>
+                <input type="text" name="lname" id="lname" value="Maqbool"> <br> <br>
+                <input type="submit" name="submit">
+            </form>
+
+            <!-- novalidate attribute -->
+            <form action="/action_page.php" target="_self" novalidate>
+                <p>--------------------------------------</p>
+                <p> novalidate attribute </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="fname" value="Kashif"> <br>
+                <label for="lname">Last Name</label> <br>
+                <input type="text" name="lname" id="lname" value="Maqbool"> <br> <br>
+                <input type="submit" name="submit">
+            </form>
+        </body>
+    </html>
+    
