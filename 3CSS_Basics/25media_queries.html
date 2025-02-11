@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness via Media Queries in CSS</title>
+    <style>
+        /* For Default Styles (Large Screens) */
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: lightblue; /* Default background */
+            text-align: center;
+            border-radius: 10px;
+        }
+        .container p {
+            font-size: 24px; /* Default font size */
+            color: #333;
+        }
+
+        /* For Extra Large Sized Screens (1200px and above) */
+        @media (min-width: 1200px) {
+            .container {
+                background-color: lightblue;
+            }
+            .container p {
+                font-size: 22px;
+            }
+        }
+
+        /* For Large Sized Screens (992px - 1199px) */
+        @media (max-width: 1199px) {
+            .container {
+                background-color: lightgreen;
+            }
+            .container p {
+                font-size: 20px;
+            }
+        }
+
+        /* For Medium Sized Screens (768px - 991px) */
+        @media (max-width: 991px) {
+            .container {
+                background-color: lightcoral;
+            }
+            .container p {
+                font-size: 18px;
+            }
+        }
+
+        /* For Small Sized Screens (576px - 767px) */
+        @media (max-width: 767px) {
+            .container {
+                background-color: lightsalmon;
+            }
+            .container p {
+                font-size: 16px;
+            }
+        }
+
+        /* For Extra Small Sized Screens (Below 576px) */
+        @media (max-width: 575px) {
+            .container {
+                background-color: lightgray;
+            }
+            .container p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>This paragraph changes font size and background color based on screen sizes using css media Queries.</p>
+    </div>
+
+</body>
+</html>
