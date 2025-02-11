@@ -1,0 +1,39 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+            <!-- External Style Sheet css -->
+            <link rel="stylesheet" href="external_style_sheet.css">
+            <style>
+                /* Internal Style Sheet css.*/
+                p{
+                    background-color: aqua;
+                    color: red;
+                }
+            </style>
+        </head>
+        <body>
+            <!-- 
+            Cascading Order 
+            1. Inline css
+            2. External and Internal Style Sheets
+            3. Browser default
+            -->
+
+            <!-- Inline Css -->
+            <p style="background-color: red; color: black;"> Inline Css Example Paragraph. </p>
+
+            <!--
+            Multiple stylesheets:
+            -> An internal style sheet has paragraph background color = red and external style sheet has 
+            paragraph background color = blue. If the link of external sheet is before the internal
+            style sheet of css than as written above then red color will be printed elseif link(href="style.css")
+            is written after the internal style sheet of css then the blue color will be printed else if inline 
+            css has used within elements than this color will be printed firstly.
+            -->
+
+
+        </body>
+    </html>

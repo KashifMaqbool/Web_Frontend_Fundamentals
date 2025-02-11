@@ -1,0 +1,65 @@
+/*
+Css Selectors: 5 Types of css selectors.
+--------------
+Simple selectors: (select elements based on name, id, class)
+Combinator selectors: (select elements based on a specific relationship between them)
+Pseudo-class selectors: (select elements based on a certain state)
+Pseudo-elements selectors: (select and style a part of an element)
+Attribute selectors: (select elements based on an attribute or attribute value)
+*/
+
+/* Element Selector */
+p{
+    background-color:  red;
+    color: blue;
+}
+
+/* Id selector Selector */
+#class{
+    background-color:  red;
+    color: blue;
+}
+
+/* Class Selector */
+p{
+    background-color:  red;
+    color: blue;
+}
+
+/* Element Selector */
+p{
+    background-color:  red;
+    color: blue;
+}
+
+/* Element of class Selector */
+p.class{
+    background-color:  red;
+    color: blue;
+}
+
+/* Universal Selector(*) */
+*{
+    background-color:  red;
+    color: blue;
+}
+
+/* Grouping Selector */
+h1{
+    background-color:  red;
+    color: blue;
+}
+h2{
+    background-color:  red;
+    color: blue;
+}
+p{
+    background-color:  red;
+    color: blue;
+}
+
+/* Minimize form of grouping Selector(*) */
+h1,h2,p{
+    background-color:  red;
+    color: blue;
+}

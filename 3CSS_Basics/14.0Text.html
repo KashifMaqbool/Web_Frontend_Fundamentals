@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* Text align and text color */
+        p.c1{
+            /* You can also add rgb, rgba, hsl colors. */
+            color: red;
+            text-align: center;
+        }
+        p.c2{
+            color: rgb(123, 255, 0);
+            text-align: right;
+        }
+        p.c3{
+            color: rgb(153, 0, 255);
+            text-align: justify;
+        }
+
+        /* Text align last */
+        p.c4{
+            color: red;
+            text-align-last: center;
+        }
+        p.c5{
+            color: rgb(123, 255, 0);
+            text-align-last: left;
+        }
+        p.c6{
+            color: rgb(153, 0, 255);
+            text-align-last: justify;
+        }
+
+        /* Text Direction */
+        p.c7{
+            color: rgb(0, 255, 0);
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+
+        /* Text Vertical Align */
+        img.a{
+            color: blue;
+            vertical-align: baseline;
+        }
+        img.b{
+            color: red;
+            vertical-align:top;
+        }
+        img.c{
+            color: blue;
+            vertical-align: bottom;
+        }
+        img.d{
+            color: blue;
+            vertical-align: sub;
+        }
+        img.e{
+            color: blue;
+            vertical-align: super;
+        }
+    </style>
+</head>
+<body>
+    <h1> Text Color and alignment</h1>
+    <p class="c1"> Text color and alignment.</p>
+    <p class="c2"> Text color and alignment.</p>
+    <p class="c3">
+        Text color and alignment.Text color and alignment.Text color and alignment.Text color and alignment.
+        Text color and alignment.Text color and alignment.Text color and alignment.Text color and alignment.
+        Text color and alignment.Text color and alignment.Text color and alignment.Text color and alignment.
+        Text color and alignment.Text color and alignment.Text color and alignment.Text color and alignment.
+        Text color and alignment.Text color and alignment.Text color and alignment.Text color and alignment.
+        Text color and alignment.Text color and alignment.Text color and alignment.Text color and alignment.
+    </p>
+
+
+    <h1> Text alignment last </h1>
+    <p class="c4"> 
+        Text alignment last center.Text alignment last center.Text alignment last center.Text alignment last 
+        center.Text alignment last center.Text alignment last center.Text alignment last center.Text alignment
+        last centerText alignment last center.Text alignment last center.
+    </p>
+    <p class="c5"> 
+        Text alignment last left.Text alignment last left.Text alignment last left.Text alignment last left.
+        Text alignment last left.Text alignment last left.Text alignment last left.Text alignment last left.
+        Text alignment last left.Text alignment last left.Text alignment last left.Text alignment last left.
+    </p>
+    <p class="c6"> 
+        Text alignment last justify.Text alignment last justify.Text alignment last justify.Text alignment last justify.
+        Text alignment last justify.Text alignment last justify.Text alignment last justify.Text alignment last justify.
+        Text alignment last justify.Text alignment last justify.Text alignment last justify.
+    </p>
+
+    <h1>Text Direction</h1>
+    <p> Original Text.</p>
+    <p class="c7"> Alternate Text.</p>
+
+
+    <h1>Text Vertical</h1>
+    <p >A <img class = "a" src="/1Images/lion.jpg" alt="Lion" height="10px" width="10px"> Vertical text baseline </p>
+    <p >A <img class = "b" src="/1Images/lion.jpg" alt="Lion" height="10px" width="10px"> Vertical text text-top </p>
+    <p >A <img class = "c" src="/1Images/lion.jpg" alt="Lion" height="10px" width="10px"> Vertical text text-bottom </p>
+    <p >A <img class = "d" src="/1Images/lion.jpg" alt="Lion" height="10px" width="10px"> Vertical text sub </p>
+    <p >A <img class = "e" src="/1Images/lion.jpg" alt="Lion" height="10px" width="10px"> Vertical text super </p>
+</body>
+</html>

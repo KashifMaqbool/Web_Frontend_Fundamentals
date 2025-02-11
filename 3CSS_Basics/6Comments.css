@@ -1,0 +1,18 @@
+
+/* single line comments */
+
+/*
+These are 
+the multiline comments
+in css.
+*/
+
+/*Example*/
+p{
+    background-color /* Exmaple*/ : red;  /*Example*/
+}
+
+/* 
+Html comments 
+<!-- Exmaple -->
+*/

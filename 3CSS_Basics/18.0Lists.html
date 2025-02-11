@@ -1,0 +1,79 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+            <style>
+                /* List Style Type */
+                ol.a{
+                    list-style-type: circle;
+                    /* List Style Image */
+                    list-style-image: url(/1Images/flower_mini.jpg);
+                    /* Position list item Markers */
+                    list-style-position: inside;
+                }
+                ol.b{
+                    list-style-type: square;
+                    list-style-position: outside;
+                }
+                ul.c{
+                    list-style-type: lower-roman;
+                    /* Remove default List setting */
+                    list-style-type: none;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                ul.d{
+                    /* list shorthand property. */
+                    list-style: square url(/1Images/flower_mini.jpg) outside;
+                }
+
+                ul.e{
+                    /* styling lists with colors*/
+                    background-color: red;
+                    padding: 20px;
+                }
+                ul.e li{
+                    background-color: pink;
+                    color: blue;
+                    padding: 5px;
+                    margin: 5px;
+                }
+            </style>
+        </head>
+        <body>
+            <p> This is list representation</p>
+            <p> Ordered List </p>
+            <ol class="a">
+                <li> Kashif Maqbool</li>
+                <li> Maqbool Ahmad</li>
+                <li> Comsats University Sahiwal</li>
+            </ol>
+
+            <ol class="b">
+                <li> Kashif Maqbool</li>
+                <li> Maqbool Ahmad</li>
+                <li> Comsats University Sahiwal</li>
+            </ol>
+
+            <p> Unorderded List </p>
+            <ul class="c">
+                <li> Kashif Maqbool</li>
+                <li> Maqbool Ahmad</li>
+                <li> Comsats University Sahiwal</li>
+            </ul>
+
+            <ul class="d">
+                <li> Kashif Maqbool</li>
+                <li> Maqbool Ahmad</li>
+                <li> Comsats University Sahiwal</li>
+            </ul>
+
+            <ul class="e">
+                <li> Kashif Maqbool</li>
+                <li> Maqbool Ahmad</li>
+                <li> Comsats University Sahiwal</li>
+            </ul>
+        </body>
+    </html>

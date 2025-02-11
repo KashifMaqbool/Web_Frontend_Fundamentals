@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* Outline style, width, color, offset  */
+        p.dotted{
+            border: 2px solid black;
+            outline-style: dotted;
+            outline-color: red;
+            outline-width: 5px;  /* or Thin */
+            outline-offset: 5px;
+        }
+        p.dashed{
+            border: 2px solid black;
+            outline-style: dashed;
+            outline-color: green;
+            outline-width: medium;
+        }
+        p.solid{
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: palevioletred;
+            outline-width: thick;
+        }
+
+        /* Outline shorthand attribute */
+        p.shorthand{
+            border: 5px solid black;
+            outline: thick dashed violet;
+            outline-offset: 15px;
+        }
+    </style>
+</head>
+<body>
+    <p class="dotted">Outline Style dotted </p>
+    <p class="dashed">Outline Style dashed </p>
+    <p class="solid">Outline Style solid </p>
+    <br> <br> <br>
+    <p class="shorthand">Outline shorthand attirbute </p>
+</body>
+</html>
