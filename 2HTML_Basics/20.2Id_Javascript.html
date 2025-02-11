@@ -1,0 +1,26 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+        </head>
+        <body>
+            <h1 id="Salam"> Good Luck !</h1>
+            <button onclick="displayText()"> Change Text </button> <br> <br>
+            <button onclick="returnText()"> Return Text </button>
+
+            <script>
+                //var originalText = " Good Luck!"
+                var originalText = document.getElementById("Salam").textContent;
+
+                function displayText(){
+                    document.getElementById("Salam").innerHTML = "Allah Hafiz Man!"
+                }
+                function returnText(){
+                    
+                    document.getElementById("Salam").innerHTML = originalText;
+                }
+            </script>
+        </body>
+    </html>

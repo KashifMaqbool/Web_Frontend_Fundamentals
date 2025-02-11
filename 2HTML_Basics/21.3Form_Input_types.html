@@ -1,0 +1,161 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+            <style>
+                p{
+                    background-color: royalblue;
+                    color: white;
+                    padding: 15px;
+                    font-size: 14px;
+                }
+            </style>
+        </head>
+        <body>
+            <!-- Input type text, password,submit and reset-->
+            <form>
+                <p>Input type text, password, reset and submit </p>
+                <label for="fname"> First Name</label> <br>
+                <input type="text" id="fname" name="fname"> <br>
+                <label for="lname"> Last Name</label> <br>
+                <input type="password" id="lname" name="lname">
+                <br> <br>
+                <input type="submit">
+                <br><br>
+                <input type="reset">
+            </form>
+
+            <!-- Input type radio, checkbox and button already covered -->
+            <form >
+                <p> Input type radio, checkbox and button already covered </p>
+            </form>
+
+            <!-- Input type color -->
+            <form >
+                <p> Input type color </p>
+                <label for="color">Enter Your color : </label>
+                <input type="color" id="color" name="color"> <br> <br>
+                <input type="submit" name="Submit">
+            </form>
+
+            <!-- Input type date -->
+            <form >
+                <p> Input type date (min and max date) </p>
+                <label for="maxdate">Enter your date before 2023-11-22 : </label>
+                <input type="date" name="date" id="maxdate" max="2023-11-22"> <br>
+                <label for="mindate">Enter your date after 2001-06-20 : </label>
+                <input type="date" name="date" id="mindate" min="2001-06-20"> <br><br>
+                <input type="submit">
+            </form>
+
+            <!-- Input type datetime-local -->
+            <form >
+                <p> Input type datetime-local </p>
+                <label for="datetime-local">Birthday Time & Date: </label>
+                <input type="datetime-local" name="date" id="date"> <br><br>
+                <input type="submit" value="Submition">
+            </form>
+
+            <!-- Input type email -->
+            <form >
+                <p> Input type email </p>
+                <label for="email">Enter Email: </label>
+                <input type="email" name="email" id="email"> <br><br>
+                <input type="submit" value="Submition">
+            </form>
+
+            <!-- Input type image -->
+            <form >
+                <p> Input type image </p>
+                <label for="email">Enter Your Image: </label>
+                <input type="image" alt="Lion" src="/1Images/lion.jpg" style="height: 100px; width: 100px;"> <br><br>
+                <input type="submit" value="Submition">
+            </form>
+
+            <!-- Input type File -->
+            <form >
+                <p> Input type File </p>
+                <label for="myfile">Enter Your File Here: </label>
+                <input type="file" name="myfile" id="myfile"> <br><br>
+                <input type="submit" value="Submition">
+            </form>
+
+            <!-- Input type hidden -->
+            <form >
+                <p> Input type hidden </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" name="fname" id="fname" value="Kashif Maqbool" ><br> <br>
+                <label for="hidden"> This file is hidden.</label>
+                <input type="hidden" name="cusId" id="cusId"  value="Abstraction"> <br><br>
+                <input type="submit" value="Submition">
+            </form>
+
+            <!-- Input type month -->
+            <form >
+                <p> Input type month </p>
+                <label for="month"> Enter Month : </label> <br>
+                <input type="month" name="month" id="month" value="December"> <br><br>
+                <input type="submit" value="Submition">
+            </form>
+
+            <!-- Input type Number -->
+            <form >
+                <p> Input type Number </p>
+                <label for="month"> Enter Number ( Between 1 - 5) : </label> <br>
+                <input type="number" name="number" id="number" min="1" max="5" value="2"> <br><br>
+                <input type="submit" value="Submition">
+            </form>
+
+            <!-- Input type Range -->
+            <form >
+                <p> Input type Range </p>
+                <label for="month"> Enter Number ( Range 0 - 100) : </label> <br>
+                <input type="range" name="number" id="number" min="0" max="100" value="10"> <br><br>
+                <input type="submit" value="submit">
+            </form>
+
+            <!-- Input type Search -->
+            <form >
+                <p> Input type Search </p>
+                <label for="search"> Write and Enter to Search</label> <br>
+                <input type="search" name="search" id="search"> <br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <!-- Input type tel -->
+            <form >
+                <p> Input type telphone number etc </p>
+                <label for="num"> Enter Number</label> <br>
+                <input type="tel" name="number" id="num" placeholder="1234-1236547" pattern="[0-9]{4} - [0-9]{7}" required><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <!-- Input type time -->
+            <form >
+                <p> Input type Time </p>
+                <label for="numtime"> Enter Time</label> <br>
+                <input type="time" name="waqt" id="numtime" ><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <!-- Input type url -->
+            <form >
+                <p> Input type url </p>
+                <label for="link"> Enter your url</label> <br>
+                <input type="url" name="address" id="link" ><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <!-- Input type week -->
+            <!-- Week is not supported in Firefox, safari, and internet explorer-->
+            <form >
+                <p> Input type  Week </p>
+                <label for="week"> Enter Week</label> <br>
+                <input type="week" name="week" id="week" ><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+    </html>
+    

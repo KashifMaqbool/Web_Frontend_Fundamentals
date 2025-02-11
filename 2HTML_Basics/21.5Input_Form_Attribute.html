@@ -1,0 +1,79 @@
+<Doctype html>
+    <html>
+        <head>
+            <title>
+                My Title
+            </title>
+        </head>
+        <body>
+            <!-- The Form Attribute -->
+            <form id="form1">
+                <p> The Form Attribute</p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" name="fname" id="fname"> <br> <br>
+                <input type="submit"> <br>
+            </form>
+            <label for="lname">Last Name </label><br>
+            <input type="text" name="lname" id="lname" form="form1">
+
+            <!-- The Formaction Attribute -->
+            <form action="/action.php">
+                <p> The Formaction Attribute</p>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname"> <br> <br>
+                <label for="lname">Last Name </label>
+                <input type="text" name="lname" id="lname"><br><br>
+                <input type="submit"> <br> <br>
+                <input type="submit" formaction="/action_page2.php" value="Submit as admin">
+            </form>
+
+            <!-- The Formenctype Attribute -->
+            <form action="/action_page.php" method="post">
+                <p> The Formenctype Attribute</p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" name="fname" id="fname"> <br> <br>
+                <input type="submit" formenctype="encoded/data" value="submit as encoded data">
+            </form>
+
+            <!-- The Formmethod Attribute -->
+            <form action="/action.php" method="get">
+                <p> The Formmethod Attribute( Using get & Post methods) </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" name="fname" id="fname"> <br> <br>
+                <label for="lname">Last Name </label> <br>
+                <input type="text" name="lname" id="lname"><br><br>
+                <input type="submit" value="Submit as get"> <br> <br>
+                <input type="submit" formmethod="post" value="Submit as post">
+            </form>
+
+            <!-- The Formtarget Attribute -->
+            <form action="/action_page.php">
+                <p> The Formmethod Attribute </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" name="fname" id="fname"> <br> <br>
+                <label for="lname">Last Name </label> <br>
+                <input type="text" name="lname" id="lname"><br><br>
+                <input type="submit" value="Submit"> <br> <br>
+                <input type="submit" formtarget="_blank" value="Submit in new window">
+            </form>
+
+            <!-- The Formnovalidate Attribute -->
+            <form action="/action_page.php">
+                <p> The Formnovalidate Attribute </p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" name="fname" id="fname"> <br> <br>
+                <label for="lname">Last Name </label> <br>
+                <input type="text" name="lname" id="lname"><br><br>
+                <input type="submit" value="Submit"> <br> <br>
+                <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+            </form>
+
+            <!-- The novalidate Attribute -->
+            <form action="/action_page.php" novalidate>
+                <p> The novalidate Attribute </p>
+                <label for="email">Enter Email : </label><br>
+                <input type="email" id="email" name="email"> <br><br>
+                <input type="submit" value="Email">
+            </form>
+        </body>
+    </html>
