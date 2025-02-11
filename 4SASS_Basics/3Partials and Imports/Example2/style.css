@@ -1,0 +1,26 @@
+h1, h2, h3 {
+  color: #2c3e50;
+  font-family: "Verdana, sans-serif";
+}
+
+p {
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+.container {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  font-family: "Arial, sans-serif";
+  background-color: #bdc3c7;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

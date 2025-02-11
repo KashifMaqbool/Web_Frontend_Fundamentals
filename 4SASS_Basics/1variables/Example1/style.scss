@@ -1,0 +1,11 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Arial', sans-serif;
+
+.header {
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-family: $font-stack;
+    text-align: center;
+    padding: 20px;
+}

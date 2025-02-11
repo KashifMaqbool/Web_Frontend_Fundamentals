@@ -1,0 +1,32 @@
+@mixin responsive($breakpoint) {
+    @if $breakpoint == small {
+        @media (max-width: 600px) {
+            @content;
+        }
+    } @else if $breakpoint == medium {
+        @media (max-width: 768px) {
+            @content;
+        }
+    } @else if $breakpoint == large {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+}
+
+.container {
+    background-color: #ecf0f1;
+    padding: 20px;
+
+    @include responsive(small) {
+        background-color: #e74c3c;
+    }
+
+    @include responsive(medium) {
+        background-color: #f1c40f;
+    }
+
+    @include responsive(large) {
+        background-color: #2ecc71;
+    }
+}

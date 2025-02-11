@@ -1,0 +1,21 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+.primary-button {
+    @extend .button;
+    background-color: #3498db;
+}
+
+.secondary-button {
+    @extend .button;
+    background-color: #2ecc71;
+}

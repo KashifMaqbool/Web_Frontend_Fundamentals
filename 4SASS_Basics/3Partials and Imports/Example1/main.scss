@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+    font-family: $font-family;
+    color: $text-color;
+    background-color: $primary-color;
+}
+
+.container {
+    height: 100vh;
+    @include flex-center;
+    text-align: center;
+}

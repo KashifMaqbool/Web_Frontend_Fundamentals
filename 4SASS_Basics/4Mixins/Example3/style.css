@@ -1,0 +1,21 @@
+.container {
+  background-color: #ecf0f1;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .container {
+    background-color: #e74c3c;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    background-color: #f1c40f;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    background-color: #2ecc71;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

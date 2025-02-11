@@ -1,0 +1,9 @@
+@mixin box-shadow($x: 0px, $y: 2px, $blur: 5px, $color: rgba(0, 0, 0, 0.5)) {
+    box-shadow: $x $y $blur $color;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    @include box-shadow(0px, 4px, 10px, rgba(0, 0, 0, 0.3));
+}

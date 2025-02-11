@@ -1,0 +1,7 @@
+$total-width: 100%;
+$sidebar-width: 20px;
+
+.container {
+    // Convert $sidebar-width to percentage relative to $total-width
+    width: calc(#{$total-width} - #{$sidebar-width});
+}

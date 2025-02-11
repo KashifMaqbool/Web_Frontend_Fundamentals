@@ -1,0 +1,21 @@
+.button, .secondary-button, .primary-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+
+.primary-button {
+  background-color: #3498db;
+}
+
+.secondary-button {
+  background-color: #2ecc71;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+$base-padding: 10px;
+$padding-multiplier: 2;
+
+.dynamic-padding {
+    padding: $base-padding * $padding-multiplier;
+    margin: $base-padding + 5px;
+    border: 1px solid #ddd;
+}

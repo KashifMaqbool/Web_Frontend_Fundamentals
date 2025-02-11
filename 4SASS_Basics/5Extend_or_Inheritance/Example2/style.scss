@@ -1,0 +1,19 @@
+.card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.card-primary {
+    @extend .card;
+    border-color: #3498db;
+    background-color: #ecfaff;
+}
+
+.card-secondary {
+    @extend .card;
+    border-color: #2ecc71;
+    background-color: #eaffea;
+}

@@ -1,0 +1,11 @@
+$container-bg: #ecf0f1;
+$container-padding: 20px;
+
+.container {
+    background-color: $container-bg;
+    padding: $container-padding;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,106 @@
+// Variables for colors, fonts, and breakpoints
+$primary-color: #b22222; // Dark red for header and footer
+$secondary-color: #f7f7f7; // Light color for text background
+$text-color: white; // Text color for header and footer
+$font-family: 'Georgia', serif;
+$background-image-url: 'restaurant.jpg'; // Path to background image
+
+// Responsive design mixin
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 600px) { @content; }
+  }
+}
+
+// Body styles
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-image: url($background-image-url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $text-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// Header styles
+header {
+  background-color: $primary-color;
+  padding: 20px;
+  text-align: center;
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+
+      li {
+        margin: 0 15px;
+
+        a {
+          color: $text-color;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 1.2rem;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Main content styles
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    width: 70%;
+    max-width: 1000px;
+
+    .info {
+      h1 {
+        font-size: 2.5rem;
+        color: $primary-color;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        color: #333;
+      }
+    }
+  }
+
+  // Responsive design
+  @include respond(phone) {
+    .content {
+      width: 90%;
+    }
+  }
+}
+
+// Footer styles
+footer {
+  background-color: $primary-color;
+  text-align: center;
+  padding: 10px;
+  color: $text-color;
+  font-size: 0.9rem;
+}

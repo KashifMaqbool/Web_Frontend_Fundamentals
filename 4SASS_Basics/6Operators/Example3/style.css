@@ -1,0 +1,16 @@
+.dynamic-font {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .dynamic-font {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .dynamic-font {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}
+
+.secondary-button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.secondary-button:hover {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+
+/*# sourceMappingURL=style.css.map */

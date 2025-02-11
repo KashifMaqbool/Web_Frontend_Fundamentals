@@ -1,0 +1,23 @@
+
+$small-screen: 600px;
+$medium-screen: 768px;
+$large-screen: 1024px;
+
+.container {
+    background-color: #e74c3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    @media (max-width: $small-screen) {
+        background-color: #3498db;
+    }
+
+    @media (min-width: $small-screen) and (max-width: $medium-screen) {
+        background-color: #2ecc71;
+    }
+
+    @media (min-width: $medium-screen) {
+        background-color: #9b59b6;
+    }
+}

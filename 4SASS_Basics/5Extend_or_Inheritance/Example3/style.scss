@@ -1,0 +1,18 @@
+.heading {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.primary-heading {
+    @extend .heading;
+    font-size: 24px;
+    color: #3498db;
+}
+
+.secondary-heading {
+    @extend .heading;
+    font-size: 20px;
+    color: #2ecc71;
+}

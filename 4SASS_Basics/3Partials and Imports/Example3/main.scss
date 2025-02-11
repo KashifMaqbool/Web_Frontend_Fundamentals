@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'buttons';
+@import 'cards';
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+}

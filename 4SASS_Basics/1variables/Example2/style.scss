@@ -1,0 +1,13 @@
+$padding-large: 20px;
+$padding-small: 10px;
+$margin-top: 15px;
+
+.content {
+    padding: $padding-large;
+    margin-top: $margin-top;
+    background-color: #f0f0f0;
+
+    p {
+        padding: $padding-small;
+    }
+}

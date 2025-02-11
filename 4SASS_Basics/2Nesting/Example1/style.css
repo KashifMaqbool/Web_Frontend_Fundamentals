@@ -1,0 +1,18 @@
+.content {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.content h1 {
+  color: #333;
+  font-size: 24px;
+}
+.content p {
+  color: #666;
+  font-size: 16px;
+}
+.content p strong {
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
