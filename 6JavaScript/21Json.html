@@ -1,0 +1,57 @@
+<Doctype html>
+<html>
+    <head>
+        <title>
+            My Title
+        </title>
+    </head>
+    <body>
+<h2> Creatinng object of JSON string and access data form it. </h2>
+<p id="name0"></p>
+<p id="name1"></p>
+<p id="name2"></p>
+<p id="name3"></p>
+<p id="name4"></p>
+
+<Script>
+    const data = `[
+            {
+                "firstName": "Ahmed",
+                "lastName": "Khan",
+                "salary": 50000
+            },
+            {
+                "firstName": "Fatima",
+                "lastName": "Ali",
+                "salary": 55000
+            },
+            {
+                "firstName": "Hassan",
+                "lastName": "Sheikh",
+                "salary": 60000
+            },
+            {
+                "firstName": "Ayesha",
+                "lastName": "Malik",
+                "salary": 52000
+            },
+            {
+                "firstName": "Omar",
+                "lastName": "Farooq",
+                "salary": 58000
+            }
+        ]`;
+const obj = JSON.parse(data);
+document.getElementById("name0").innerHTML = obj[0].firstName + " " + obj[0].lastName + " " + obj[0].salary;
+document.getElementById("name1").innerHTML = obj[1].firstName + " " + obj[1].lastName + " " + obj[1].salary;
+document.getElementById("name2").innerHTML = obj[2].firstName + " " + obj[2].lastName + " " + obj[2].salary;
+document.getElementById("name3").innerHTML = obj[3].firstName + " " + obj[3].lastName + " " + obj[3].salary;
+document.getElementById("name4").innerHTML = obj[4].firstName + " " + obj[4].lastName + " " + obj[4].salary;
+</Script>
+    </body>
+</html>
+
+
+
+
+!

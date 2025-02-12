@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="greeting"></p>
+    <p class="greetinng1"></p>
+    <p></p>
+    <script>
+        document.getElementById("greeting").innerHTML = "My name is Kashif Maqbool!";
+        document.getElementsByClassName("greetinng1")[0].innerHTML = "My name is Haseeb Jawad!";
+        document.getElementsByTagName("p")[2].innerHTML = "My name is Muhammad Ali!";
+    </script>
+</body>
+</html>
+
+<!-- Html DOM -->      <!-- Copied from W3School.com-->
+<!-- The DOM Programming Interface
+The HTML DOM can be accessed with JavaScript (and with other programming languages).
+In the DOM, all HTML elements are defined as objects.
+The programming interface is the properties and methods of each object.
+A property is a value that you can get or set (like changing the content of an HTML element).
+A method is an action you can do (like add or deleting an HTML element).
+ -->
+
+
+ <!-- Html DOM -->
+  <!-- Finding HTML Elements
+Method	Description
+document.getElementById(id)	            Find an element by element id
+document.getElementsByTagName(name)	    Find elements by tag name
+document.getElementsByClassName(name)	Find elements by class name
+-->

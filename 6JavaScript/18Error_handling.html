@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try, Catch, Finally Example</title>
+</head>
+<body>
+
+<h2>JavaScript Try, Catch, Finally Example</h2>
+
+<p id="result"></p>
+
+<script>
+    function divideNumbers(a, b) {
+        try {
+            // Try to perform the division
+            if (b === 0) {
+                throw new Error("Cannot divide by zero!");
+            }
+            let result = a / b;
+            document.getElementById("result").innerText = `Result: ${result}`;
+        } catch (error) {
+            // Handle any error by displaying it
+            document.getElementById("result").innerText = `Error: ${error.message}`;
+        } finally {
+            // Always executed, regardless of success or error
+            console.log("Division attempted.");
+        }
+    }
+
+    // Test the function with valid and invalid values
+    //divideNumbers(10, 2); // Successful division
+    divideNumbers(10, 0); // Throws error due to division by zero
+</script>
+
+</body>
+</html>

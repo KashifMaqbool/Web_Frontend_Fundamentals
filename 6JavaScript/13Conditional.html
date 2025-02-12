@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1> 
+<h2>The toString() Method</h2>
+
+<p>The toString() method returns an array as a comma separated string:</p>
+
+<p id="demo"></p>
+<script>
+    const time = new Date().getHours();
+    let salam;
+    if(time<10){
+        salam = "Good Morning";
+    }else if(time<20){
+        salam= "Good Afternoon";
+    }else{
+        salam="Good Evening";
+    }
+    document.getElementById("demo").innerHTML=salam;
+</script>
+</body>
+</html>
