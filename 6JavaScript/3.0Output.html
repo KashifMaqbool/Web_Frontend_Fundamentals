@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>JavaScript Output Examples</title>
+</head>
 <body>
+    <h1>JavaScript Output Methods</h1>
+    
+    <!-- First example -->
+    <section>
+        <h2>Document Write Example</h2>
+        <div id="result1"></div>
+        <script>
+            document.getElementById('result1').textContent = 5 + 6;
+        </script>
+    </section>
 
-<h1>My First Web Page</h1>
-<p>My First Paragraph</p>
-<p id="demo"></p>
-<script>
-document.getElementById("demo").innerHTML = 5 + 6;
-</script>
+    <!-- Second example -->
+    <section>
+        <h2>Button Click Example</h2>
+        <div id="result2"></div>
+        <button type="button" onclick="displayResult()">Try it!</button>
+    </section>
 
-<h1>My First Web Page</h1>
-<p>Document.Write</p>
-<script>
-document.write(5+6);
-</script>
+    <!-- Third example -->
+    <section>
+        <h2>Alert Example</h2>
+        <button type="button" onclick="showAlert()">Show Alert</button>
+    </section>
 
-<h1>My First Web Page</h1>
-<p>Document.write in button</p>
-<button type="button" onclick="document.write(5+6)">Try it!</button>
+    <script>
+        // Centralized functions
+        function displayResult() {
+            document.getElementById('result2').textContent = 5 + 6;
+        }
 
-<h1>My First Web Page</h1>
-<p>window.alert</p>
-<script>
-window.alert(5+6);
-</script
+        function showAlert() {
+            window.alert(5 + 6);
+        }
+    </script>
 </body>
 </html>
