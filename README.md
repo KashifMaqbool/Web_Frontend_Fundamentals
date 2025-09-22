@@ -1,6 +1,6 @@
 # 🌐 Web Development Fundamentals 🚀  
 
-This repository showcases my journey in learning **Web Development Fundamentals**, which I explored during my **sixth semester**. It includes **HTML, CSS, SASS, Bootstrap, JavaScript, and PHP**—Basics of all essential technologies for building modern and user-friendly applications.  
+This repository showcases my journey in learning **Web Development Fundamentals**, which I explored during my **sixth semester**. It includes **HTML, CSS, SASS, Bootstrap, JavaScript, and PHP**—the Basics of all essential technologies for building modern and user-friendly applications.  
 
 By learning these, I have strengthened my ability to develop well-structured web applications, which will help me integrate **AI-powered solutions and Backend Development** into future projects.  
 
@@ -49,22 +49,21 @@ Each folder contains **project-specific README files** explaining the concepts a
 ## ⚙️ Installation & Setup  
 
 1️⃣ **Clone this repository:**  
-```bash
 git clone https://github.com/km9924173@gmail.com/web-development-fundamentals.git
 cd web-development-fundamentals
 
-2️⃣ Run the projects:
+## 2️⃣ Run the projects:
 
 Open .html files in a browser for frontend projects.
 Run PHP files using a local server like XAMPP, WAMP, or MAMP.
 3️⃣ Install Dependencies (if needed):
 Some projects may require additional dependencies. Check specific folders for setup details.
 
-🚀 Usage
+## 🚀 Usage
 Explore Code: Study well-structured examples for reference.
 Run Examples: Test how HTML, CSS, JavaScript, and PHP integrate together.
 Modify & Experiment: Enhance and apply your own styles, scripts, and components.
-🤝 Contributing
+## 🤝 Contributing
 💡 Contributions are welcome! Follow these steps:
 
 1️⃣ Fork the repository.
@@ -73,16 +72,15 @@ Modify & Experiment: Enhance and apply your own styles, scripts, and components.
 4️⃣ Push the branch (git push origin feature/YourFeature).
 5️⃣ Open a Pull Request.
 
-📜 License
+## 📜 License
 🤝 Feel free to use, modify, and share!
 
 ## 🙌 Author
-KASHIF MAQBOOL JOIYA
-🎓 Data Analyst & Data Scientist | Aspiring AI Engineer
-💻 Passionate about Open Source, Data Science, Big Data, and AI Systems
+**KASHIF MAQBOOL JOIYA**  
+🎓 Data Analyst & Data Scientist | Aspiring AI Engineer  
+💻 Passionate about Open Source, Data Science, Big Data, and AI Systems  
 
-🌐 Connect with me:
-
-GitHub
-LinkedIn
+🌐 Connect with me:  
+- [GitHub](https://github.com/KashifMaqbool)  
+- [LinkedIn](https://www.linkedin.com/in/kashif-maqbool-joiya-390747209/)  
 
