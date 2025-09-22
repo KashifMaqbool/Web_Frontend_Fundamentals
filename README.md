@@ -76,8 +76,13 @@ Modify & Experiment: Enhance and apply your own styles, scripts, and components.
 📜 License
 🤝 Feel free to use, modify, and share!
 
-📞 Contact
-📧 Email: km9924173@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/kashif-maqbool-joiya-390747209/
-🐙 GitHub: https://github.com/KashifMaqbool
+## 🙌 Author
+KASHIF MAQBOOL JOIYA
+🎓 Data Analyst & Data Scientist | Aspiring AI Engineer
+💻 Passionate about Open Source, Data Science, Big Data, and AI Systems
+
+🌐 Connect with me:
+
+GitHub
+LinkedIn
 
